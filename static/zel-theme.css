@@ -6,7 +6,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    background: url('/images/board-blured.png') no-repeat center center scroll;
+    background: url('../images/board-blured.png') no-repeat center center scroll;
     /*background: url('http://localhost:8080/images/board.jpg') no-repeat center center scroll;*/
     /*background: steelblue;*/
     color: white;
