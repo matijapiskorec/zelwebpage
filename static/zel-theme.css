@@ -1,0 +1,51 @@
+.name {
+    text-align: center;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('/images/board-blured.png') no-repeat center center scroll;
+    /*background: url('http://localhost:8080/images/board.jpg') no-repeat center center scroll;*/
+    /*background: steelblue;*/
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+
+/*.selected-publication li {
+    width: 288px;
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+    vertical-align: top;
+    margin: 1px;
+}*/
+
+.journal {
+  font-style: italic;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
